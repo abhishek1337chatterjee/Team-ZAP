@@ -2,6 +2,6 @@ TEAM NAME-ZAP
 <----TEAM MEMBERS--->
 Student 1 - Abhishek Chatterjee
 student2 - Sameer Kumar Padhy
-student3 - RavindraRavindra kumar
-student4 - Zeeshan Ilahi
+student3 - Zeeshan Ilahi
+student4 - Ravindra kumar
 student5 - Tarun Kumar Sao.
