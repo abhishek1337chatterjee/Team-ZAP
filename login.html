@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+
+    <style>
+
+       h1{
+        margin-top: 70px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       } 
+        #container{
+            width: 100%;
+            height: 590px;
+            border: 1px solid white;
+
+            background:linear-gradient(120deg,#2980b9, #8e44ad);
+        }   
+
+        #container>div{
+            border: 1px solid blue;
+            width: 32%;
+            height: 500px;
+            text-align: center;
+            margin: auto;
+            margin-top: 30px;
+            border-radius: 10px;
+            background-color: white;
+
+        }
+
+        form .txt_field{
+            position: relative;
+            border-bottom: 2px solid #addedd;
+            padding: 30px 0px;
+
+        }
+
+        form .txt_field_p{
+            position: relative;
+            border-bottom: 2px solid #addedd;
+            padding: 30px 0px;
+
+
+        }
+
+        .txt_field input{
+            width: 80%;
+            margin-top: 40px;
+            padding: 0 5px;
+            height: 40px;
+            font-size: 18px;
+            border: none;
+            background: none;
+            outline:none;
+            border-bottom: 2px solid #9ca0a0;
+            transform: translateY(-40);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+        }
+        
+        .txt_field_p input{
+            width: 80%;
+            margin-top: 20px;
+            transform: translateY(-40);
+            padding: 0 5px;
+            font-size: 18px;
+            height: 40px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border: none;
+            background: none;
+            outline:none;
+            border-bottom: 2px solid #9ca0a0;
+        }
+
+        #butt{
+            margin-top: 30px;
+            width: 85%;
+            height: 50px;
+            background:linear-gradient(120deg,#2980b9, #8e44ad);
+            border: 0px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+            font-size: 20px;
+            
+
+        }
+
+        #p{
+            margin-top: 40px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #9ca0a0;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div id="container">
+        <div id="main">
+            <h1>Login</h1>
+            <div class="txt_field"><input id="email" type="text" placeholder="Email"/></div>
+            <div class="txt_field_p"><input id="pass" type="text" placeholder="Password"/></div>
+            <button id="butt">Login</button>
+            <div id="p">
+                <p>Forgot <a href="#">Password</a>?</p>
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+    
+</body>
+</html>
