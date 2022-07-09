@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <style>
+        body>div{
+            display: grid;
+            grid-template-rows: repeat(5,30px);
+            gap:35px;
+            width:28%;
+            height: auto;
+            background-color: rgb(76,203,179);
+            margin: auto;
+            margin-top: 200px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        #head{
+            color: white;
+            text-align: center;
+            font-size: 30px;
+        }
+        .inputs{
+            margin-top: 0px;
+            text-align: center;
+            height: 90px;
+            margin-top: 20px;
+        }
+        .inputs input{
+            width: 70%;
+            padding: 15px;
+            border: 0px;
+        }
+        .clicks{
+            margin: auto;
+            width: 70%;
+            text-align: center;
+            background-color: rgb(36,164,140);
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        ::placeholder {
+            color: grey;
+            font-size: 13.7px;
+        }
+
+    </style>
+</head>
+<body>
+    <div> 
+        <div id="head">- Visitor -</div>
+        <div class="inputs"><input placeholder="Full name"></div>
+        <div class="inputs"><input placeholder="Email"></div>
+        <div class="inputs"><input placeholder="Organisation"></div>
+        <div class="clicks">SIGN UP</div>
+        <div class="clicks">RETURN</div>
+    </div>
+    
+</body>
+</html>
