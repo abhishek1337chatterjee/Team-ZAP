@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mensPage</title>
+    <style>
+        #box{
+            display: flex;
+            margin: auto;
+            justify-content: space-evenly;
+            width: 90%;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 40px;
+        }
+        #box>div{
+            width: 40%;
+            padding-left: 40px;
+        }
+        #box>div:hover{
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        }
+        .first{
+            width: 100%;
+            line-height: 10px;
+        }
+        .first>img{
+            width: 70%;
+            margin-left: 60px;
+            margin-bottom: 20px;
+        }
+        .first>p:nth-child(2){
+            font-size: 25px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .first>p:nth-child(3){
+            font-size: 20px;
+            color: grey;
+            align-self: flex-end;
+            font-size: 30px;
+        }
+        .second{
+            display: flex;
+            
+        }
+        .second>p{
+            margin-right: 7px;
+            margin-top: 10px;
+            height: 30px;
+            border: 0px solid red;
+        }
+        .second>p:nth-child(1){
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .second>p:nth-child(2){
+            font-size: 30px;
+            color: grey;
+            align-self: flex-end;
+        }
+        .second>p:nth-child(3){
+            font-size: 30px;
+            color: lightseagreen;
+            align-self: flex-end;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div>
+            <div class="first">
+                <img src="https://m.simsim.in/data/products/1018060_mainimagelinkfoldername_40e2eec9-412d-48c1-9a5e-2c421fcd9e4f.jpg" alt="Pause"/>
+                <p>Pause</p>
+                <p>Men Cotton Long Sleeves Shrug</p>
+            </div>
+            <div class="second">
+                <p>₹ 359</p>
+                <p>₹ <s>1,499</s></p>
+                <p>-76%</p>
+            </div>
+        </div>
+        <div>
+            <div class="first">
+                <img src="https://3.imimg.com/data3/JX/CO/MY-3107409/half-sleeve-sweaters-250x250.jpg" alt="Jubination"/>
+                <p>JUBINATION</p>
+                <p>Men Wool Sleeveless Sweater Pack Of 1</p>
+            </div>
+            <div class="second">
+                <p>₹ 799</p>
+                <p>₹ <s>1,499</s></p>
+                <p>-47%</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
